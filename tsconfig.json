@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "outDir": "build",
+    "resolveJsonModule": true
+  },
+  "files": [
+    "src/main.ts"
+  ],
+  "include": [
+    "src/commands/**/*.ts",
+    "src/handlers/**/*.ts"
+  ]
+}

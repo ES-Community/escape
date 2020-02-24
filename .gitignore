@@ -1,0 +1,6 @@
+!.gitkeep
+.env
+build
+node_modules
+database/*
+!database/schema.json
